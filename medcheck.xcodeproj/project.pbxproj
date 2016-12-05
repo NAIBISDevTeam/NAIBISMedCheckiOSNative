@@ -194,7 +194,7 @@
 				TargetAttributes = {
 					13D762121DF59C450052E8AF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2C458LP6BR;
+						DevelopmentTeam = 5CRVTVQTEK;
 						ProvisioningStyle = Automatic;
 					};
 					13D762261DF59C470052E8AF = {
@@ -416,11 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C458LP6BR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5CRVTVQTEK;
 				INFOPLIST_FILE = medcheck/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.naibis.medcheck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naibisdev.medcheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,11 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C458LP6BR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5CRVTVQTEK;
 				INFOPLIST_FILE = medcheck/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.naibis.medcheck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naibisdev.medcheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
