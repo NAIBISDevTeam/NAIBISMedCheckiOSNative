@@ -187,6 +187,7 @@
 		13D7620B1DF59C450052E8AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = com;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = naibis;
@@ -417,6 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C458LP6BR;
 				INFOPLIST_FILE = medcheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naibis.medcheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C458LP6BR;
 				INFOPLIST_FILE = medcheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naibis.medcheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +517,7 @@
 				13D7623D1DF59C470052E8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D7623E1DF59C470052E8AF /* Build configuration list for PBXNativeTarget "medcheckTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +526,7 @@
 				13D762401DF59C470052E8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D762411DF59C470052E8AF /* Build configuration list for PBXNativeTarget "medcheckUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				13D762431DF59C470052E8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
